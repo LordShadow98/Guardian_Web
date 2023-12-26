@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página de Inicio</title>
+</head>
+<body>
+  <h1>Bienvenido</h1>
+  
+  <!-- Formulario de Registro -->
+  <form id="registerForm">
+    <h2>Registro</h2>
+    <label for="regUsername">Usuario:</label>
+    <input type="text" id="regUsername" required>
+    <label for="regPassword">Contraseña:</label>
+    <input type="password" id="regPassword" required>
+    <button type="submit">Registrarse</button>
+  </form>
+
+  <!-- Formulario de Inicio de Sesión -->
+  <form id="loginForm">
+    <h2>Iniciar Sesión</h2>
+    <label for="loginUsername">Usuario:</label>
+    <input type="text" id="loginUsername" required>
+    <label for="loginPassword">Contraseña:</label>
+    <input type="password" id="loginPassword" required>
+    <button type="submit">Iniciar Sesión</button>
+  </form>
+
+  <script src="/authService.js"></script>
+  <script src="/userService.js"></script>
+  <script src="/app.js"></script>
+  
+
+</body>
+</html>

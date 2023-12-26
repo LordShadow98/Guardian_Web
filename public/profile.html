@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Perfil del Usuario</title>
+</head>
+<body>
+  <h1>Perfil del Usuario</h1>
+
+  <!-- Información del Usuario -->
+  <div id="userInfo">
+    <p><strong>Usuario:</strong> <span id="username"></span></p>
+    <p><strong>ID:</strong> <span id="userId"></span></p>
+  </div>
+
+  <!-- Formulario de Actualización -->
+  <form id="updateForm">
+    <h2>Actualizar Información</h2>
+    <label for="updateUsername">Nuevo Usuario:</label>
+    <input type="text" id="updateUsername" required>
+    <button type="submit">Actualizar</button>
+  </form>
+
+  <script src="/authService.js"></script>
+  <script src="/userService.js"></script>
+  <script src="/app.js"></script>
+  
+
+</body>
+</html>

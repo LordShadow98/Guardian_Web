@@ -1,0 +1,47 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  width: 300px; /* Ancho máximo del formulario */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Asegura que el ancho incluya el relleno */
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#userInfo {
+  margin-bottom: 20px;
+  text-align: left;
+}
